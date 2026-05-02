@@ -1,0 +1,32 @@
+{
+  "name": "better-t-nest-template",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "check-types": "turbo check-types",
+    "dev:native": "turbo -F native dev",
+    "dev:web": "turbo -F web dev",
+    "check": "ultracite check",
+    "fix": "ultracite fix"
+  },
+  "dependencies": {
+    "@better-t-nest-template/env": "workspace:*",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@better-t-nest-template/config": "workspace:*",
+    "@biomejs/biome": "2.4.12",
+    "lefthook": "latest",
+    "turbo": "^2.8.12",
+    "typescript": "^6",
+    "ultracite": "7.6.2"
+  },
+  "packageManager": "pnpm@10.18.1"
+}

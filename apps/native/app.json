@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "scheme": "better-t-nest-template",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "better-t-nest-template",
+    "slug": "better-t-nest-template",
+    "plugins": ["expo-font"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

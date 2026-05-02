@@ -1,0 +1,6 @@
+{
+  "extends": "@better-t-nest-template/config/tsconfig.base.json",
+  "compilerOptions": {
+    "strictNullChecks": true
+  }
+}
